@@ -41,4 +41,21 @@ app.controller('MainController', ['$scope', function($scope) {
         }
     ];
 
+    $scope.extras = [
+        {
+            name: 'French Fries',
+            description: 'Shoe string fries',
+            price: 3.50
+        },
+        {
+            name: 'Roasted Potatoes',
+            description: 'Baby potatoes with sea salt',
+            price: 4.50
+        },
+        {
+            name: 'Garlic Toasted Bread',
+            description: 'Crusty fresh bread drizzled with garlic and lightly toasted.',
+            price: 3.50
+        }
+    ];
 }]);

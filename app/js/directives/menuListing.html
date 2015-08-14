@@ -1,0 +1,10 @@
+<div class="appetizers row" ng-repeat="menu in menuList">
+    <div class="item col-md-9">
+        <h3 class="name">{{ menu.name }}</h3>
+
+        <p class="description"> {{ menu.description }}</p>
+    </div>
+    <div class="price col-md-3">
+        <p class="price"> {{ menu.price | currency }}</p>
+    </div>
+</div>
